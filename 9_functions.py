@@ -34,3 +34,9 @@ def describir_mascota2(nombre, clase="perro"):
 describir_mascota2("milo2", "gato")
 
 # retornar valores
+def nombre_completo(nombre, apellido):
+    """devuelve el nombre completo"""
+    union = f"{nombre} {apellido}"
+    return union
+nombre_apellido = nombre_completo("katia", "balbuena")
+print("\n"+nombre_apellido)
