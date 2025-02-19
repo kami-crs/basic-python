@@ -52,7 +52,7 @@ while x <= 5:
 # usar while loops con listas y diccionarios
 # mover items de una lista a otra
 usuarios_confirmados = []
-usuarios_no_confirmados = ["torres", "oliver", "noham"]
+usuarios_no_confirmados = ["eduardo", "kamila", "juan"]
 while usuarios_no_confirmados:
     usuario = usuarios_no_confirmados.pop()
     usuarios_confirmados.append(usuario)
